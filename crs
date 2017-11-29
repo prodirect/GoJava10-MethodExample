@@ -1,0 +1,38 @@
+public  class  MethodExample {
+
+    public  static  void  printHello () {
+        Система . из . println ( « Hello » );
+    }
+
+    public  static  void  printArray ( int [] arr ) {
+        for ( int i =  0 ; i < обр . длина; i ++ )
+            Система . из . print (arr [i] +  "  " );
+        Система . из . Println ();
+    }
+
+    public  static  String  arrayToString ( int [] arr ) {
+        return arrayToString (обр., обр . длина);
+    }
+
+    public  static  String  arrayToString ( int [] arr , int  count ) {
+        если (количество <  0 ) бросить  новый  IllegalArgumentException ( " подсчитывать <0 !!! " );
+        Строковый результат =  " " ;
+        for ( int i =  0 ; i < обр . длина && i < count; i ++ )
+            результат + = arr [i] +  "  " ;
+        результат возврата ;
+    }
+
+    public  static  void  main ( String [] args ) {
+        int [] array = { 1 , 2 , 3 , 10 , 150 };
+        int [] array2 = { 10 , 20 , 30 , 30 , 0 , - 150 };
+
+        // String strArray = arrayToString (массив);
+        // System.out.println (strArray);
+        // printArray (массив);
+
+        // System.out.println (arrayToString (array2));
+
+        Система . из . println (arrayToString (array, 100 ) +  " \ n "  + arrayToString (array2, 3 ));
+    }
+}
+© 2017 GitHub , Inc.
