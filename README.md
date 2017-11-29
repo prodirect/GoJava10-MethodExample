@@ -1,0 +1,1 @@
+# GoJava10-MethodExample
