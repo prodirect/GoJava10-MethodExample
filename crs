@@ -35,4 +35,4 @@ public  class  MethodExample {
         Система . из . println (arrayToString (array, 100 ) +  " \ n "  + arrayToString (array2, 3 ));
     }
 }
-© 2017 GitHub , Inc.
+
